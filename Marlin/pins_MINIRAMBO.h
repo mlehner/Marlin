@@ -87,8 +87,10 @@
 // Motor current PWM conversion, PWM value = MotorCurrentSetting * 255 / range
 #define MOTOR_CURRENT_PWM_RANGE 2000
 
-#define DEFAULT_PWM_MOTOR_CURRENT  {270, 1600, 450} // {XY,Z,E}
-#define DEFAULT_PWM_MOTOR_CURRENT_LOUD  {540, 1600, 500} // {XY,Z,E}
+#define DEFAULT_PWM_MOTOR_CURRENT  {540, 1600, 900} // {XY,Z,E}
+
+
+
 
 //
 // Temperature Sensors
